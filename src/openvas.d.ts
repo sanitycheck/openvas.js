@@ -609,3 +609,5 @@ export interface document extends BaseType {
 }
 export var document: document;
 declare function OpenVasParser(xml: string): OpenVas | null;
+export { OpenVas };
+
