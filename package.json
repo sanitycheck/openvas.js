@@ -1,7 +1,7 @@
 {
-  "name": "@sanitycheck/openvas.js",
+  "name": "@sanitycheck0x00/openvas.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1 align=\"center\">openvas.js by Sanitycheck</h1> <p>   <img alt=\"Version\" src=\"https://img.shields.io/badge/version1.0.0-blue.svg?cacheSeconds=2592000\" />   <a href=\"#\" target=\"_blank\">     <img alt=\"License: MIT\" src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" />   </a> </p>",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,13 @@
   },
   "devDependencies": {
     "@types/xml2js": "^0.4.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanitycheck/openvas.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sanitycheck/openvas.js/issues"
+  },
+  "homepage": "https://github.com/sanitycheck/openvas.js#readme"
 }
