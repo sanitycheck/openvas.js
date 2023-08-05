@@ -1,6 +1,6 @@
 import { document } from "./openvas.d";
 import { parseString } from "xml2js";
-import { Convert, OpenVas } from './openvas-json';
+import { Convert, OpenVas } from "./openvas-json";
 
 const parseXml = (xml: string): OpenVas | null => {
   let scan: document | null = null;
@@ -15,12 +15,10 @@ const parseXml = (xml: string): OpenVas | null => {
   return openvas;
 };
 
-const OpenVasParser = (xml: string): OpenVas | null => {
+export function OpenVasParser(xml: string): OpenVas | null {
   const parsed = parseXml(xml);
   if (!parsed) {
     return null;
   }
   return parsed;
-};
-
-export default OpenVasParser;
+}
